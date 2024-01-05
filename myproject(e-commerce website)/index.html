@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevar-india</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+
+  </head>
+  <body>
+    <div id="home_main_id" style="display: block;" class="home_main">
+    <nav class="nav">
+      <a href="">
+        <img src="Elevar_Logo.webp" alt="Logo" />
+      </a>
+      <ul>
+        <li><a href="#banner-one">FOOTWEAR</a></li>
+        <li><a href="#banner-four">APPAREL</a></li>
+        <li><a href="#banner-five">CRICKET</a></li>
+        <li id="contact_us"><a >CONTACT US</a></li>
+    
+      </ul>
+
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+
+    <!-- hero-section -->
+    <section id="hero">
+      <h4>Limited Edition: World Cup 2023 Bat</h4>
+      <h2>A Tribute to India's Spirit</h2>
+      <p>
+        What better way to celebrate this grand event than with a limited <br />
+        edition cricket bat that captures the essence of the game in India like
+        never before!
+      </p>
+      <button><b>RESERVE YOUR BAT</b></button>
+    </section>
+
+    <!-- Categories -->
+
+    <section id="feature">
+      <div class="fe-box">
+        <img
+          src="https://in.elevarsports.com/cdn/shop/files/Performance_2_300x.progressive_d9744d9b-5f71-4be1-9f24-4103b625c324_300x.progressive.jpg?v=1685447977"
+          alt="sneakers"
+        />
+        <h4>Sneakers</h4>
+      </div>
+      <div class="fe-box">
+        <img
+          src="https://in.elevarsports.com/cdn/shop/files/Neon-Tides-1080-X-1080_1_7473f622-18d2-402f-96f3-14e30ea362b7_300x.progressive.png.jpg?v=1688462231"
+          alt="flip-flops & slides"
+        />
+        <h4>Flip-flop & Slides</h4>
+      </div>
+      <div class="fe-box">
+        <img
+          src="https://in.elevarsports.com/cdn/shop/files/Exclusive_Launch_Offer_Price_1_300x.progressive.png.jpg?v=1688462299"
+          alt="Apparel"
+        />
+        <h4>Apparel</h4>
+      </div>
+      <div class="fe-box">
+        <img
+          src="https://in.elevarsports.com/cdn/shop/files/BAT_1_4976c2b5-2a7f-4b04-8494-9a1141897219_250x.progressive.jpg?v=1681386107"
+          alt="Cricket bat & grip"
+        />
+        <h4>Cricket Bats & grips</h4>
+      </div>
+    </section>
+
+    <!-- Banner-1 -->
+
+    <section id="banner-one">
+      <h4><b>PERFORMANCE FOOTWEAR</b></h4>
+      <h2>
+        Engineered Comfort In<br />
+        Every Step
+      </h2>
+      <p>
+        Exceptional comfort & superior performance,made possible with our<br>
+        revolutionary Rydefoam sole technology.Engineered using E-TPU, the<br>
+        world's most innovative cushioning material to make you feel like you're<br>
+        walking on clouds. You've never worn anything like it<br>
+      </p>
+    </section>
+
+    <!--********** tab-1*********** -->
+
+    <style>
+      /* Style the tab container */
+      .tab-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Style the tab headers */
+      .tab {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+        justify-content: space-around;
+        background-color: gray;
+        color: #212a2f;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      /* Style the active tab header */
+      .active {
+        background-color: #ffffff;
+        
+      }
+
+      /* Style the tab content panels */
+      .tab-content {
+        display: none;
+        /* padding: 10px; */
+        border: 1px solid #ccc;
+        justify-content: center;
+    flex-wrap: wrap;
+        
+      }
+
+      /* Display the active tab content */
+      .tab-content.active {
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;      }
+    </style>
+    <!-- tabs -1 -->
+    <div class="tab-container">
+      <div class="tab active" onclick="openTab('tab1')">PERFORMANCE-MEN</div>
+      <div class="tab" onclick="openTab('tab2')">PERFORMANCE-WOMEN</div>
+    </div>
+
+    <div id="tab1" class="tab-content active">
+      <div id="shop_now_btn" class="content">
+        <div class="tag"><b>Bestseller</b></div>
+        <a >
+        <img src="Elevar_Sports_Dayscape_Carbon_Black.jpg" alt="img" />
+        <h4>Dayscape<span> 4 - colors</span></h4>
+        <p>The ideal everyday sneaker.Made for all-day wear!</p>
+        <h6 class="old-price">INR ₹4,990</h6>
+        <h6 class="new-price">INR ₹2,960</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star"></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+        </a><style>.content a {text-decoration: none;}</style>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>Bestseller</b></div>
+        <img src="Elevar_Sports_Men_ARC_Racer_Cobalt_Blue.webp" alt="img" />
+        <h4>Elevar ARC Racer<span> 5 - colors</span></h4>
+        <p>The ultimate all-purpose sneaker.</p>
+        <h6 class="old-price">INR ₹6,490</h6>
+        <h6 class="new-price">INR ₹3,990</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        
+        <div class="tag"><b>Bestseller</b></div>
+        <img src="Elevar_Sports_Men_FLybolt.webp" alt="img" />
+        <h4>Flybolt<span> 4 - colors</span></h4>
+        <p>Our latest running silhouette. Aerodynamic profile!</p>
+        <h6 class="old-price">INR ₹5,490</h6>
+        <h6 class="new-price">INR ₹2,790</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star"></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </div>
+
+      <div id="tab2" class="tab-content">
+        <div class="content">
+          <div class="tag"><b>Bestseller</b></div>
+          <img src="Elevar_Sports_Women_ARC_Racer_Sheer_Lilac.webp" alt="img" />
+          <h4>ARC Racer <span>- Sheer Lilac</span></h4>
+          <p>
+            The ultimate all-purpose sneaker. 
+          </p>
+          <h6 class="old-price">INR ₹6,490</h6>
+          <h6 class="new-price">INR ₹3,990</h6>
+          <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+          </ul>
+          <button class="btn">SHOP NOW</button>
+        </div>
+  
+        <div class="content">
+          <div class="tag"><b>Bestseller</b></div>
+          <img src="Elevar_Sports_Women_FLybolt.webp" alt="img" />
+          <h4>Flybolt <span>- 4 colors</span></h4>
+          <p>
+            Our latest running silhouette. Aerodynamic profile!
+          </p>
+          <h6 class="old-price">INR ₹5,490</h6>
+          <h6 class="new-price">INR ₹2,990</h6>
+          <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star"></i></li>
+          </ul>
+          <button class="btn">SHOP NOW</button>
+        </div>
+  
+        <div class="content">
+          <div class="tag"><b>Bestseller</b></div>
+          <img src="Elevar_Sports_Dayscape_Glacier-white.jpg" alt="img" />
+          <h4>Dayscape <span>- Glacier White</span></h4>
+          <p>The ideal everyday sneaker.Made for all-day wear!</p>
+          <h6 class="old-price">INR ₹4,990</h6>
+          <h6 class="new-price">INR ₹2,690</h6>
+          <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+          </ul>
+          <button class="btn">SHOP NOW</button>
+        </div>
+      </div>
+
+    <!-- banner - 2 -->
+    
+    <section id="banner-two">
+      <h4>CASUAL SNEAKERS</h4>
+      <h2>
+        Engineered Comfort In<br />
+        Every Step
+      </h2>
+      <p>
+        Built at the intersection of sport & fashion, our sportstyle range features<br>
+        a blend of heritage and futuristic styles that look to push the<br>
+        boundaries of possibility in the current era of sneaker culture.<br>
+        Bringing together modern design, sustainable craftsmanship and all-day<br>
+        comfort.
+      </p>
+    </section>
+
+
+    <div class="tab-container">
+      <div class="tab active" onclick="openTab('tab-one')">MEN</div>
+      <div class="tab" onclick="openTab('tab-two')">WOMEN</div>
+    </div>
+
+    <div id="tab-one" class="tab-content active">
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="In-The-Clouds.webp" alt="img" />
+        <h4>Court Rise<span> 4 - colors</span></h4>
+        <p>Ushering the evergreen court design into the 21st century!</p>
+        <h6 class="old-price">INR ₹4,990</h6>
+        <h6 class="new-price">INR ₹2,990</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="in-the-clouds-1.webp" alt="img" />
+        <h4>Court Low<span> 5 - colors</span></h4>
+        <p>
+          A stylish and sporty low-top silhouette with carefully reinforced
+          panelling.
+        </p>
+        <h6 class="old-price">INR ₹4,990</h6>
+        <h6 class="new-price">INR ₹2,490</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star "></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>FEATURED</b></div>
+        <img src="Elevar_Sports_Ecomm_Pacific.webp" alt="img" />
+        <h4>Men's Retrogaze <span> 4 - colors</span></h4>
+        <p>
+          A retro-inspired sneaker with a contemporary twist featuring vegan
+          leather!
+        </p>
+        <h6 class="old-price">INR ₹6,490</h6>
+        <h6 class="new-price">INR ₹2,990</h6>
+        <ul>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star checked"></i></li>
+          <li><i class="fas fa-star "></i></li>
+        </ul>
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </div>
+      <div id="tab-two" class="tab-content">
+        <div class="content">
+          <div class="tag"><b>NEW</b></div>
+          <img src="in-the-clouds-1.webp" alt="img" />
+          <h4>Men's Retrogaze<span> 4 - colors</span></h4>
+          <p>Ushering the evergreen court design into the 21st century!</p>
+          <h6 class="old-price">INR ₹4,990</h6>
+          <h6 class="new-price">INR ₹2,490</h6>
+          <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+          </ul>
+          <button class="btn">SHOP NOW</button>
+        </div>
+  
+        <div class="content">
+          <div class="tag"><b>FEATURED</b></div>
+          <img src="Elevar_Sports_Ecomm_Malibu.webp" alt="img" />
+          <h4>Men's Retrogaze<span> 4 - colors</span></h4>
+          <p>
+            A retro-inspired sneaker with a contemporary twist vegan
+            leather!
+          </p>
+          <h6 class="old-price">INR ₹6,490</h6>
+          <h6 class="new-price">INR ₹2,990</h6>
+          <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star"></i></li>
+          </ul>
+          <button class="btn">SHOP NOW</button>
+        </div>
+      </div>
+
+<!-- Banner - 3 -->
+
+     <section id="banner-three">
+      <h4>flip-flops & Slides</h4>
+      <h2>Step into cloud-like comfort</h2>
+      <p>
+        Engineered with our proprietary CloudCore(TM) technology for unmatched<br>
+        comfort, our flip-flops & slides are exquisitely made with the modern man in<br>
+        mind, ensuring a perfect harmony between style and technology. Step into the<br>
+        future of footwear with confidence.
+      </p>
+    </section>
+
+    <!-- tab - 3 -->
+
+    <div class="tab-container">
+      <div class="tab active" onclick="openTab('tab-1')">SLIDES</div>
+      <div class="tab" onclick="openTab('tab-2')">FLIP-FLOPS</div>
+    </div>
+
+    <div id="tab-1" class="tab-content active">
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="CART_IMAGES-1.webp" alt="img" />
+        <h4>Ultra Cruize <span> - Neon Tides</span></h4>
+        <p>Enjoy effortless comfort with ultra Cruize!</p>
+        <h6 class="new-price">INR ₹1,590</h6>
+        
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="CART_IMAGES-2.webp" alt="img" />
+        <h4>Ultra Cruize <span> - After Hours</span></h4>
+        <p>Enjoy effortless comfort with ultra Cruize!</p>
+        <h6 class="new-price">INR ₹1,590</h6>
+        
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="CART_IMAGES-3.webp" alt="img" />
+        <h4>Ultra Cruize <span> - Espresso Shots</span></h4>
+        <p>Enjoy effortless comfort with ultra Cruize!</p>
+        <h6 class="new-price">INR ₹1,590</h6>
+        
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </div>
+
+    <div id="tab-2" class="tab-content">
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="home-slider-open-neo.webp" alt="img" />
+        <h4>Neo Stryde <span> - Carbon Black</span></h4>
+        <p>
+          Designed for downtime, Neo stryde combines a sleek design.
+        </p>
+        <h6 class="new-price">INR ₹1,390</h6>
+
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="home-slider-open-neo-blue.webp" alt="img" />
+        <h4>Neo Stryde <span> - Midnight Blue</span></h4>
+        <p>
+          Designed for downtime, Neo stryde combines a sleek design.
+        </p>
+        <h6 class="new-price">INR ₹1,390</h6>
+        
+        <button class="btn">SHOP NOW</button>
+      </div>
+
+      <div class="content">
+        <div class="tag"><b>NEW</b></div>
+        <img src="HOME_SLIDER_grey.webp" alt="img" />
+        <h4>Neo Stryde <span> - Vapour Grey</span></h4>
+        <p>
+          Designed for downtime, Neo stryde combines a sleek design.
+        </p>
+        <h6 class="new-price">INR ₹1,190</h6>
+      
+        <button class="btn">SHOP NOW</button>
+      </div>
+    </div>
+
+    <!-- Banner-4 -->
+    <section id="banner-four">
+      <h4>Performance-wear</h4>
+      <h2>New Era Of Performance</h2>
+      <p>
+        The ultimate performance-wear designed to keep you cool and comfortable
+         during<br> even the most intense workouts. Crafted from materials that 
+         are lightweight, breathable,<br> and moisture-wicking, providing unbeatable comfort
+        and support while you push your limits.
+      </p>
+    </section>
+
+    <div class="tab-container">
+      <div class="tab" onclick="openTab('tab-t')">AEROCHILL - ACTIVE - TSHIRT</div>
+    </div>
+    <div class="tab-content-main">
+    <div id="tab-t" class="tab-content">
+    <div class="content">
+    <img src="CART_IMAGES_green ts.webp" alt="img" />
+      <p>
+        Get an ice-cold Performance boost with our Aerochill!
+      </p>
+      <h6 class="old-price">INR ₹1,490</h6>
+      <h6 class="new-price">INR ₹990</h6>
+      
+      <button class="btn">SHOP NOW</button>
+    </div>
+  </div>
+
+  <div id="tab-t" class="tab-content active">
+    <div class="content">
+    <img src="CART_IMAGES_blacky.webp" alt="img" />
+      <p>
+        Get an ice-cold Performance boost with our Aerochill!
+      </p>
+      <h6 class="old-price">INR ₹1,490</h6>
+      <h6 class="new-price">INR ₹990</h6>
+      <button class="btn">SHOP NOW</button>
+    </div>
+  </div>
+  <div id="tab-t" class="tab-content active">
+    <div class="content">
+    <img src="CART_IMAGES_650X-grey.webp" alt="img" />
+      <p>
+        Get an ice-cold Performance boost with our Aerochill!
+      </p>
+      <h6 class="old-price">INR ₹1,490</h6>
+      <h6 class="new-price">INR ₹990</h6>
+      <button class="btn">SHOP NOW</button>
+    </div>
+  </div>
+</div> 
+ <!-- Banner-5 -->
+ <section id="banner-five">
+  <h4>CRICKET BATS</h4>
+  <h2>More Power in Every Stroke</h2>
+  <p>
+    Created using our properietary dual-design handle,shock absorbing <br>
+    grips and aerodynamics blades to give you faster bat speeds and <br> 
+    better control in every shot you play. We revolutionized the way a <br>
+    cricket bat is meant to perform from gullys to stadiums across the country.
+  </p>
+</section>
+
+<div class="tab-container">
+  <div class="tab active" onclick="openTab('tab-b')">TENNIS BALL</div>
+  <div class="tab" onclick="openTab('tab-B')">SEASON BALL</div>
+</div>
+
+<div id="tab-b" class="tab-content active">
+  <div class="content">
+   
+    <img src="bat-1.webp" alt="img" />
+    <h4>Gully <span> - Scoop</span></h4>
+    <p>
+      World's best tennis ball bat. Upgraded grip, Premium aesthetics.
+    </p>
+    <h6 class="old-price">INR ₹1,890</h6>
+    <h6 class="new-price">INR ₹1,690</h6>
+    <ul>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star "></i></li>
+    </ul>
+    <button class="btn">SHOP NOW</button>
+  </div>
+
+<div class="content">
+    <img src="GULLY-PHANTOM.webp" alt="img" />
+    <h4>Gully <span> - Phantom</span></h4>
+    <p>
+      World's best tennis ball bat. Upgraded grip, Premium aesthetics.
+    </p>
+    <h6 class="old-price">INR ₹2,490</h6>
+    <h6 class="new-price">INR ₹2,290</h6>
+    <ul>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star checked"></i></li>
+      <li><i class="fas fa-star "></i></li>
+    </ul>
+    <button class="btn">SHOP NOW</button>
+</div>
+
+  <div class="content">
+    <img src="bat-standard.webp" alt="img" />
+      <h4>Gully <span> - standard</span></h4>
+      <p>
+        World's best tennis ball bat. Upgraded grip, Premium aesthetics.
+      </p>
+      <h6 class="old-price">INR ₹2,290</h6>
+      <h6 class="new-price">INR ₹1,990</h6>
+      <ul>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star "></i></li>
+      </ul>
+      <button class="btn">SHOP NOW</button>
+    </div>
+</div>
+
+<div id="tab-B" class="tab-content">
+   <div class="content">
+      <img src="Elevar_Product_Kasmiri1.webp" alt="img" />
+      <h4>Elevar Kashmir <span> - Standard</span></h4>
+      <p>
+        A dual purpose kashmiri willow, versatile for both hard and leather tennis ball!
+      </p>
+      <h6 class="old-price">INR ₹3,250</h6>
+      <h6 class="new-price">INR ₹2,990</h6>
+      <ul>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+      </ul>
+      <button class="btn">SHOP NOW</button>
+   </div>
+
+    
+   <div class="content">
+        <img src="elevar bat.webp" alt="img" />
+        <h4>Elevar Kashmir <span> - Phantom</span></h4>
+          <p>
+            A dual purpose kashmiri willow, versatile for both hard and leather tennis ball!
+          </p>
+          <h6 class="old-price">INR ₹3,490</h6>
+          <h6 class="new-price">INR ₹3,250</h6>
+        <ul>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+            <li><i class="fas fa-star checked"></i></li>
+        </ul>
+          <button class="btn">SHOP NOW</button>
+   </div>
+</div>
+<script src="tab.js"></script>
+<script src="menu.js"></script>
+
+       
+      
+<!-- <div class="foot-panel1">
+  back to top
+  </div> -->
+
+  <div class="footer_main">
+    <div class="footer-first-panel">
+    <div class="footer_list_main">
+        <div class="footer_list_heading"><p>Products</p></div>
+        <div class="footer-list"><a>Performance Shoes</a>
+        <a>Sportstyle Sneakers</a>
+        <a>Flip flops & Slides</a>
+        <a>Cricket Bats</a>
+        <a>Become A Brand Ambassador</a>
+      </div>
+
+    </div>
+
+    <div class="footer_list_main">
+      <div class="footer_list_heading"><p>Support</p></div>
+        <div class="footer-list"> <a>support@elevarsports.com</a>
+        <a>Contact us</a>
+        <a>Return/Exchanges</a>
+        <a>Track your order</a>
+        <a>FAQs</a>
+      </div>
+      </div>
+
+    <div class="footer_list_main">
+      <div class="footer_list_heading"> <p>Legal</p></div>
+        <div class="footer-list"><a>Terms</a>
+        <a>Privacy</a>
+        <a>Return policy</a>
+        <a>Shipping policy</a>
+      </div>
+
+    </div>
+  </div>
+    <div class="email-form">
+        <h2>Subscribe to our emails</h2>
+        <form action="#">
+            <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+            />
+            <button type="submit" class="submit-button">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer-third-panel">
+      <a><i class="fa-brands fa-square-facebook"></i></a>
+      <a><i class="fa-brands fa-instagram"></i></a>
+      <a><i class="fa-brands fa-whatsapp"></i></a>
+      <a><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <div class="footer-fourth-panel">
+    <div class="copyright">
+        <a>© 2023, Elevar Sports Powered by Shopify</a>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- ProducDetails page -->
+<div id="productDetails_main_id" style="display: none;" class="productDetails_main">
+  <div  class="home-btn">
+   <button id="home_back"><i class="fa-solid fa-house"></i></button>
+  </div>
+  
+<div class="product_details main">
+<div class="slider-container">
+  <div class="slider">
+    <div class="slide">
+      <img src="Elevar_Sports_Dayscape_Carbon_Black.webp" alt="Image 1" />
+    </div>
+    <div class="slide">
+      <img src="Elevar_Sports_Dayscape.webp" alt="Image 2" />
+    </div>
+    <div class="slide">
+      <img src="Elevar_Sports_Dayscape_Carbon_Black_Front.webp" alt="Image 3" />
+    </div>
+  </div>
+  <div class="slider-button_div">
+    <button class="prev-button"><</button>
+    <button class="next-button">></button>
+  </div>
+</div>
+  
+    <div class="details">
+      <h6>Home / Men's shoes</h6>
+      <h1>Mens's Dayscape</h1>
+      <div class="price">
+      <h6 class="old-price">INR ₹4,990</h6> 
+      <h6 class="new-price">INR ₹1,599</h6>
+      <div class="tag">65% OFF</div>
+      </div>
+      <div class="rating">
+      <p>Limited Time Discount</p>
+      <ul>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star checked"></i></li>
+        <li><i class="fas fa-star "> (125)</i></li>
+      </ul>
+    </div>
+    <div class="clr-size">
+      <p>colour: Carbon Black</p>
+      <img
+      src="Elevar_Sports_Dayscape_Carbon_Black.webp"
+      style="
+        width: 50px;
+        height: 50px;">
+    </div>
+    <div class="size">
+    <p>Shoe Size (UK) : 6</p>
+    <select>
+      <option>Select Size</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+    </select>
+    </div>
+    <div class="cart">
+    <button><b>ADD TO CART</b></button>
+    <p>Free Shipping | COD Available | 7 Day Exchanges</p>
+    </div>
+  </div>
+    
+</div>
+
+
+  <script src="slider.js"></script>
+</div>
+
+<div id="contact_details_main_id" class="contact_details_main" style="display: none;">
+  <div  class="home-btn">
+    <button id="home_back1"><i class="fa-solid fa-house"></i></button>
+   </div>
+  <div class="services">
+    <ul>
+      <li>
+        <a
+          ><img
+            src="https://in.elevarsports.com/cdn/shop/files/support-page-contact-details_1.png?v=1654861427"
+          />
+          <h5>Contact us</h5></a
+        >
+      </li>
+      <li>
+        <a
+          ><img
+            src="https://in.elevarsports.com/cdn/shop/files/trackordericon1_d4127715-fdeb-40f6-a9f8-081c8d105007.png?v=1654868236"
+          />
+          <h5>Track your Order</h5></a
+        >
+      </li>
+      <li>
+        <a
+          ><img
+            src="https://in.elevarsports.com/cdn/shop/files/support-page-faq.png?v=1654868445"
+          />
+          <h5>FAQs</h5></a
+        >
+      </li>
+      <li>
+        <a
+          ><img
+            src="https://in.elevarsports.com/cdn/shop/files/shippingDeatailsiconblack_1.png?v=1654868339"
+          />
+          <h5>Shipping Policy</h5></a
+        >
+      </li>
+    </ul>
+  </div>
+
+  <div class="Cdetails">
+    <h2><span>CALL OR WHATSAPP US</span></h2>
+    <p>
+      Simply click on the icon below to chat with one of customer executives.
+    </p>
+    <a
+      ><img
+        src="https://cdn.shopify.com/s/files/1/0017/4227/4613/files/whatsapp.png?v=1655894367"
+    /></a>
+    <span>Or call us on +91 0123456789</span>
+    <span>Mon-Fri <strong>10am-8pm</strong></span>
+    <span>Sat<strong> 10am-6pm</strong></span>
+  </div>
+  <div class="mail">
+    <h2><span>EMAIL US</span></h2>
+    <a
+      ><img
+        src="https://cdn.shopify.com/s/files/1/0017/4227/4613/files/email_0fd2c524-ff7c-4cde-bc16-d8826ab3ffee.png?v=1655894367"
+    /></a>
+    <span
+      >You can reach us at <a>support@elevarsports.com</a>. We generally
+      respond within 24 hours.</span
+    >
+  </div>
+
+  <div class="follow">
+    <p><span>You can contact our grievance office, Vishal Mahtani on +91 9372487696
+      or email on <a>support@elevarsports.com</a>. We're happy to give you
+      advice on <br />products, chat about sports in general, or answer any
+      other questions you may have.<br>
+    </span></p>
+    <p><span>Address: Elevar Sports Pvt. Ltd., F1C, 5th Floor, Jash Chambers, Sir
+      P.M. Road, Fort Mumbai MH 400001 India</span></p>
+    <h2><span>FOLLOW US</span></h2>
+    <p><span>Follow us on social media for updates about new products, sports and more content!</span></p>
+    <ul>
+    <li><a><img src="https://cdn.shopify.com/s/files/1/0017/4227/4613/files/facebook.png?v=1655894367"></a></li>
+    <li><a><img src="https://cdn.shopify.com/s/files/1/0017/4227/4613/files/instagram.png?v=1655894367"></a></li>
+    <li><a><img src="https://cdn.shopify.com/s/files/1/0017/4227/4613/files/youtube.png?v=1655894367"></a></li>
+    </ul>
+  </div>
+  <!-- footer -->
+  <div class="footer_main">
+    <div class="footer-first-panel">
+    <div class="footer_list_main">
+        <div class="footer_list_heading"><p>Products</p></div>
+        <div class="footer-list"><a>Performance Shoes</a>
+        <a>Sportstyle Sneakers</a>
+        <a>Flip flops & Slides</a>
+        <a>Cricket Bats</a>
+        <a>Become A Brand Ambassador</a>
+      </div>
+
+    </div>
+
+    <div class="footer_list_main">
+      <div class="footer_list_heading"><p>Support</p></div>
+        <div class="footer-list"> <a>support@elevarsports.com</a>
+        <a>Contact us</a>
+        <a>Return/Exchanges</a>
+        <a>Track your order</a>
+        <a>FAQs</a>
+      </div>
+      </div>
+
+    <div class="footer_list_main">
+      <div class="footer_list_heading"> <p>Legal</p></div>
+        <div class="footer-list"><a>Terms</a>
+        <a>Privacy</a>
+        <a>Return policy</a>
+        <a>Shipping policy</a>
+      </div>
+
+    </div>
+  </div>
+    <div class="email-form">
+        <h2>Subscribe to our emails</h2>
+        <form action="#">
+            <input
+                type="email"
+                class="email-input"
+                placeholder="Enter your email"
+            />
+            <button type="submit" class="submit-button">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer-third-panel">
+      <a><i class="fa-brands fa-square-facebook"></i></a>
+      <a><i class="fa-brands fa-instagram"></i></a>
+      <a><i class="fa-brands fa-whatsapp"></i></a>
+      <a><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <div class="footer-fourth-panel">
+    <div class="copyright">
+        <a>© 2023, Elevar Sports Powered by Shopify</a>
+    </div>
+</div>
+</div>
+</div>
+<script>
+  //home page
+  var x = document.getElementById("shop_now_btn").addEventListener('click',function(){
+    var cls=document.getElementById("home_main_id")
+    var cls1=document.getElementById("productDetails_main_id")
+
+    if (cls.style.display === "block") {
+      cls.style.display = "none";
+      cls1.style.display ="block"
+
+}    }
+  );
+//Product Details
+  var y = document.getElementById("home_back").addEventListener('click',function(){
+    var cls2=document.getElementById("home_main_id")
+    var cls3=document.getElementById("productDetails_main_id")
+    if (cls3.style.display === "block") {
+      cls3.style.display = "none";
+      cls2.style.display="block"
+}    }
+  );
+//contact details
+  var z = document.getElementById("contact_us").addEventListener('click',function(){
+    var cls4=document.getElementById("home_main_id")
+    var cls5=document.getElementById("contact_details_main_id")
+
+    if (cls4.style.display === "block") {
+      cls4.style.display = "none";
+      cls5.style.display ="block"
+
+}    }
+  );
+  //back home
+  var a = document.getElementById("home_back1").addEventListener('click',function(){
+    var cls6=document.getElementById("home_main_id")
+    var cls7=document.getElementById("contact_details_main_id")
+
+    if (cls7.style.display === "block") {
+      cls7.style.display = "none";
+      cls6.style.display ="block"
+
+}    }
+  );
+</script>
+</body>
+</html>
